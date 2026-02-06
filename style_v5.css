@@ -108,9 +108,6 @@ a:hover {
 
 .image-2{
     grid-area: image-2;
-    position: relative;
-    top: -100px;
-    left: -100px;
 }
 
 .image-2 img {
