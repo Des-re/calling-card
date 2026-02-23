@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Avara-Black";
+    src: url("fonts/Avara-Black.woff2") format("woff2");
+}
+
+
+
+body{
+    background-color: rgb(25, 147, 229);
+   font-family: "akzidenz-grotesk-next-conden", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.grid-container {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". name name name name ."
+    ". name name name name ."
+    ". image-1 image-1 image-1 image-1 image-2"
+    "text-2 image-1 image-1 image-1 image-1 image-4"
+    "image-5 image-1 image-1 image-1 image-1 text-1"
+    "image-3 . . . . ."
+    ". bio bio . . .";
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.name{
+    grid-area: name;
+    top: 15px;
+    z-index: 10;
+}
+
+.name h1 {
+    text-align: center;
+    font-size: 305px;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 75%;
+    letter-spacing: -7px;
+    color: rgb(252, 252, 251);
+    font-family: "akzidenz-grotesk-next-conden", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+.text-1{
+    grid-area: text-1;
+    margin-bottom: 60px;
+    color: aliceblue;
+    margin-top: -150px;
+}
+
+.text-2{
+    grid-area: text-2;
+    margin-top: 180px;
+    color: aliceblue;
+}
+
+.text-3{
+    grid-area: text-3;
+    color: aliceblue;
+}
+
+.image-1 {
+    grid-area: image-1;
+}
+
+.image-2{
+    grid-area: image-2;
+     margin-top: 60px;
+}
+
+.image-3{
+    grid-area: image-3;
+     margin-top: -45px;
+}
+
+.image-4 {
+    grid-area: image-4;
+    margin-top: -45px;
+}
+
+.image-5 {
+    grid-area: image-5;
+    margin-top: -55px;
+}
+
+
+.bio p {
+    margin-bottom: 100px;
+    margin-top: -150px;
+    color: aliceblue;
+}
+
+.bio{
+    grid-area: bio;
+}
+
+
+
