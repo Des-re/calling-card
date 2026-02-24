@@ -22,7 +22,12 @@ font-style: normal;
     ". image-1 image-1 image-1 image-1 image-2"
     "text-2 image-1 image-1 image-1 image-1 image-4"
     "image-5 image-1 image-1 image-1 image-1 text-1"
-    "image-3 . . . . .";
+    "image-3 . . . . ."
+    ". name-2 name-2 name-2 name-2 ."
+    " image-9 image-6 image-6 image-6 image-6 ."
+    "image-10 image-6 image-6 image-6 image-6 image-8"
+    ". image-6 image-6 image-6 image-6 image-7"
+    ". . . . . text-3";
 }
 
 img{
@@ -44,7 +49,8 @@ a {
 
 
 
-.name h1 {
+.name h1, 
+.name-2 h1 {
     text-align: center;
     font-size: 162px;
     margin-bottom: 0;
@@ -100,9 +106,35 @@ font-style: normal;
     margin-top: -55px;
 }
 
+/* HIER KOMMT PROJEKT 2  */
 
 
+.name-2 {
+    grid-area: name-2;
+}
 
+.image-6 {
+    grid-area: image-6;
+}
 
+.image-7 {
+    grid-area: image-7;
+}
+
+.image-8 {
+    grid-area: image-8;
+}
+
+.image-9 {
+    grid-area: image-9;
+}
+
+.image-10 {
+    grid-area: image-10;
+}
+
+.text-3 {
+    grid-area: text-3;
+}
 
 
