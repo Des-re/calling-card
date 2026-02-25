@@ -77,14 +77,14 @@ font-style: normal;
 
 .text-1{
     grid-area: text-1;
-    margin-bottom: 60px;
+    margin-bottom: 2%;
     color: aliceblue;
-    margin-top: -110px;
+    margin-top: -145px;
 }
 
 .text-2{
     grid-area: text-2;
-    margin-top: 165px;
+    margin-top: 160px;
     color: aliceblue;
 }
 
@@ -97,12 +97,12 @@ font-style: normal;
 
 .image-2{
     grid-area: image-2;
-     margin-top: 20%;
+     margin-top: 50px;
 }
 
 .image-3{
     grid-area: image-3;
-     margin-top: -0%;
+     margin-top: -55px;
 }
 
 .image-4 {
@@ -112,7 +112,7 @@ font-style: normal;
 
 .image-5 {
     grid-area: image-5;
-    margin-top: -25%;
+    margin-top: -55px;
 }
 
 /* HIER KOMMT PROJEKT 2  */
@@ -130,6 +130,7 @@ font-style: normal;
 
 .image-7 {
     grid-area: image-7;
+    margin-top: -90px;
 }
 
 .image-8 {
@@ -142,11 +143,13 @@ font-style: normal;
 
 .image-10 {
     grid-area: image-10;
+    margin-top: -90px;
 }
 
 .text-3 {
     grid-area: text-3;
     color: aliceblue;
+    margin-top: -105px;
 }
 
 
@@ -172,19 +175,23 @@ font-style: normal;
 
 .image-14 {
     grid-area: image-14;
+    margin-top: -92px;
 }
 
 .image-15 {
     grid-area: image-15;
+    margin-top: -92px;
 }
 
 .image-16 {
     grid-area: image-16;
+    margin-top: -92px;
 }
 
 .text-4 {
     grid-area: text-4;
     color: aliceblue;
+    margin-top: -192px;
 }
 
 /* Hier kommt der titel/mein name */
